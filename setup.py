@@ -28,8 +28,8 @@ DESCRIPTION     = 'GPU extensions for PySCF'
 LICENSE         = 'GPLv3'
 URL             = None
 DOWNLOAD_URL    = None
-CLASSIFIERS     = None
-PLATFORMS       = None
+CLASSIFIERS     = []
+PLATFORMS       = []
 
 def get_version():
     topdir = os.path.abspath(os.path.join(__file__, '..'))
